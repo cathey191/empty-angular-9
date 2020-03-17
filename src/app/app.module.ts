@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EnsureComponent } from './ensure/ensure.component';
+import {DeferLoadModule} from '@trademe/ng-defer-load';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { EnsureComponent } from './ensure/ensure.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DeferLoadModule
   ],
   providers: [],
   bootstrap: [AppComponent]

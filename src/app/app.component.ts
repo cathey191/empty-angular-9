@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-nine';
+
+  public foo () {
+    console.log('hello');
+  }
 }
+
+
